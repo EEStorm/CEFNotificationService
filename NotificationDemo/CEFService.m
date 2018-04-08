@@ -11,9 +11,8 @@
 
 @implementation CEFService
 
-+(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate{
++(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID{
     
-    NSString *EID = [self createEID];
     [self registerNotification:EID];
     
     NSString *version = [UIDevice currentDevice].systemVersion;

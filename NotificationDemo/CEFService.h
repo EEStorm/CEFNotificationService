@@ -13,20 +13,16 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 
-@protocol CEFPushDelegate <NSObject>
 
-- (void)cefpushNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(NSInteger))completionHandler;
-
-- (void)cefpushNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler ;
-
-@end
 
 @interface CEFService : NSObject 
 
 
 @property (nonatomic, assign) NSString * EID;
 
-+(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate;
++(NSString *)createEID ;
+    
++(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID;
 
 +(void)registerDeviceToken:(NSData *)deviceToken;
 

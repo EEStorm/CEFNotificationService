@@ -23,7 +23,9 @@
     // Override point for customization after application launch.
 //    [self replyPushNotificationAuthorization:application];
     
-    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self];
+    NSString *EID = [CEFService createEID];
+    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self EID:EID];
+    
     return YES;
 }
 
