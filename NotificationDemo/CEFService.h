@@ -15,14 +15,18 @@
 
 
 
+typedef void(^Completion)();
+
 @interface CEFService : NSObject 
 
+@property(copy,nonatomic)Completion successCompletion;
+@property(copy,nonatomic)Completion failedCompletion;
 
 @property (nonatomic, assign) NSString * EID;
 
 +(NSString *)createEID ;
     
-+(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID;
++(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID successCompletion:(Completion)successCompletion failedCompletion:(Completion)failedCompletion;
 
 +(void)registerDeviceToken:(NSData *)deviceToken;
 

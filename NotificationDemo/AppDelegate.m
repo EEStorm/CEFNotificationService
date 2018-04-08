@@ -24,7 +24,14 @@
 //    [self replyPushNotificationAuthorization:application];
     
     NSString *EID = [CEFService createEID];
-    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self EID:EID];
+    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self EID:EID successCompletion:^{
+        
+        //用户允许通知
+        
+    } failedCompletion:^{
+        //用户拒绝通知
+        
+    }];
     
     return YES;
 }

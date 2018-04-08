@@ -11,7 +11,7 @@
 
 @implementation CEFService
 
-+(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID{
++(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID successCompletion:(Completion)successCompletion failedCompletion:(Completion)failedCompletion{
     
     [self registerNotification:EID];
     
@@ -26,11 +26,11 @@
             if (!error && granted) {
                 //用户点击允许
                 NSLog(@"注册成功");
-                
+                successCompletion();
             }else{
                 //用户点击不允许
                 NSLog(@"注册失败");
-                
+                failedCompletion();
             }
         }];
         
