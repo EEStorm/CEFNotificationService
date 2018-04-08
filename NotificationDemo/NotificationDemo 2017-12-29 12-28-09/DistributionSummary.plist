@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NotificationDemo.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>7E4384DDDFA41F7857BDF1010017E1C17E266C1F</string>
+				<key>dateExpires</key>
+				<string>2018/9/13</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>E3P2FC5X6P.com.microsoft.msxiaoyun.NotificationDemo</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>E3P2FC5X6P</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>NotificationDemo.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>68c95b6d-ec10-4782-8f67-4019a1fc866f</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.microsoft.msxiaoyun.NotificationDemo</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>E3P2FC5X6P</string>
+				<key>name</key>
+				<string>Yucao Wang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,296 @@
+2017-12-29 04:28:03 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ff30a806c10; archive(resolved)='<IDEArchive: 0x7ff307856f80>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team(resolved)='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ff30a806c10; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ff30a83ced0; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff307f8ad10; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff307adc200; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff30a80f260; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff31f660420; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff30a858450; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff3078a4ae0; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff3053a36d0; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='<IDEProvisioningBasicTeam 0x7ff307f73fd0: teamID: E3P2FC5X6P, teamName: Yucao Wang>'>
+	<IDEDistributionContext: 0x7ff307cec710; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7ff307b07fc0>', team='(null)'>
+	<IDEDistributionContext: 0x7ff307cd2c00; archive = '<IDEArchive: 0x7ff307856f80>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ff30a806c10>
+2017-12-29 04:28:03 +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-12-29 04:28:03 +0000  Processing step: IDEDistributionCopyItemStep
+2017-12-29 04:28:03 +0000  Running /usr/bin/ditto '-V' '/Users/zhangdongdong/Library/Developer/Xcode/Archives/2017-12-29/NotificationDemo 2017-12-29 下午12.27.xcarchive/Products/Applications/NotificationDemo.app' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root/Payload/NotificationDemo.app'
+2017-12-29 04:28:03 +0000  >>> Copying /Users/zhangdongdong/Library/Developer/Xcode/Archives/2017-12-29/NotificationDemo 2017-12-29 下午12.27.xcarchive/Products/Applications/NotificationDemo.app 
+2017-12-29 04:28:03 +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-12-29 04:28:03 +0000  5133 bytes for ./_CodeSignature/CodeResources
+2017-12-29 04:28:03 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-12-29 04:28:03 +0000  246 bytes for ./archived-expanded-entitlements.xcent
+2017-12-29 04:28:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-12-29 04:28:03 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-12-29 04:28:03 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2017-12-29 04:28:03 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-12-29 04:28:03 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-12-29 04:28:03 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2017-12-29 04:28:03 +0000  1136 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2017-12-29 04:28:03 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2017-12-29 04:28:03 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2017-12-29 04:28:03 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2017-12-29 04:28:03 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2017-12-29 04:28:03 +0000  copying file ./embedded.mobileprovision ... 
+2017-12-29 04:28:03 +0000  9932 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2017-12-29 04:28:03 +0000  1195 bytes for ./Info.plist
+copying file ./NotificationDemo ... 
+2017-12-29 04:28:03 +0000  129664 bytes for ./NotificationDemo
+2017-12-29 04:28:03 +0000  copying file ./PkgInfo ... 
+2017-12-29 04:28:03 +0000  8 bytes for ./PkgInfo
+2017-12-29 04:28:03 +0000  /usr/bin/ditto exited with 0
+2017-12-29 04:28:03 +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-12-29 04:28:03 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-12-29 04:28:03 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-12-29 04:28:03 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-12-29 04:28:03 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root' '--json' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool-json-filepath-VJQwoH' '--compile-bitcode' '--output' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2017-12-29 04:28:03 +0000  ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin16]
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - minVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1593: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1602: warning: assigned but unused variable - sourceVersion
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1703: warning: shadowing outer local variable - node
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2470: warning: shadowing outer local variable - machoImage
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2662: warning: assigned but unused variable - transformer
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2912: warning: assigned but unused variable - exc
+2017-12-29 04:28:03 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:738: warning: assigned but unused variable - output
+2017-12-29 04:28:04 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2017-12-29 04:28:04 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/gems/2.0.0/gems/libxml-ruby-2.6.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2017-12-29 04:28:04 +0000  OS X 10.12.6 16G29
+2017-12-29 04:28:04 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/", "LOGNAME"=>"zhangdongdong", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/zhangdongdong", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.SPnYRy902f/Render", "USER"=>"zhangdongdong", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.QqrCcp3xbA/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.10380", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root", "--json", "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool-json-filepath-VJQwoH", "--compile-bitcode", "--output", "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2017-12-29 04:28:04 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-29 04:28:04 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-29 04:28:04 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2017-12-29 04:28:04 +0000  Scanning IPA...
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) _CodeSignature NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1450 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) archived-expanded-entitlements.xcent NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1451 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Base.lproj NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1452 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) embedded.mobileprovision NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1453 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) Info.plist NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1454 exit 0
+    Stdout:
+        False
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  /usr/bin/python -c import\ sys\;\ import\ unicodedata\;\ print\(unicodedata.normalize\(\'NFC\',\ sys.argv\[1\].decode\(\'utf-8\'\)\)\ \=\=\ unicodedata.normalize\(\'NFC\',\ sys.argv\[2\].decode\(\'utf-8\'\)\)\) NotificationDemo NotificationDemo
+2017-12-29 04:28:04 +0000      /usr/bin/python exited with pid 1455 exit 0
+    Stdout:
+        True
+    
+    Stderr:
+2017-12-29 04:28:04 +0000  Complete LinkageGraph:
+    NotificationDemo.app/NotificationDemo arm64 ->
+2017-12-29 04:28:04 +0000  Validating IPA structure...
+2017-12-29 04:28:04 +0000  Compiling bitcode...
+2017-12-29 04:28:04 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk -o /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo --generate-dsym /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo.dSYM --strip-swift-symbols /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo
+2017-12-29 04:28:04 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'NotificationDemo'
+2017-12-29 04:28:05 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 1468 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" 
+        -= Output =-
+        Non-fat file: /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" 
+        -= Output =-
+        UUID: E0A2C786-AF92-352E-B027-27E5402B8AE7 (arm64) /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" "-extract" "__LLVM" "__bundle" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/NotificationDemo39rIUE/NotificationDemo.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/tempHnGBEO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/tempHnGBEO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/tempHnGBEO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+  
+2017-12-29 04:28:05 +0000        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UserNotifications.framework/UserNotifications.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/tempHnGBEO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/zhangdongdong/Library/Developer/Xcode/DerivedData/NotificationDemo-dzuaydvthjekbtaqdscqpxoslwcz/Build/Intermediates.noindex/ArchiveIntermediates/NotificationDemo/InstallationBuildProductsLocation/Applications/NotificationDemo.app/NotificationDemo" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk" "-sdk_version" "11.2.0" "-filelist" "/private/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/NotificationDemo39rIUE/NotificationDemo.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UserNotifications.framework/UserNotifications.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/NotificationDemo39rIUE/NotificationDemo.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" 
+        -= Output =-
+        UUID: 6E1EA463-8BFD-3576-9D15-57CEF254918F (arm64) /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/Notif
+2017-12-29 04:28:05 +0000  icationDemo
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" "-o" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo
+2017-12-29 04:28:05 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 1484 exit 0
+    Stdout:
+        /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/ipatool20171229-1418-1vtmikr/thinned/arm64/Payload/NotificationDemo.app/NotificationDemo [arm64, 0.006983 seconds]:
+    
+    Stderr:
+2017-12-29 04:28:05 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu/universal
+  Copying NotificationDemo.app output payload directory
+2017-12-29 04:28:05 +0000    Copying .dSYM files to /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu/universal/dSYMs
+  Copying .symbols files to /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu/universal/Symbols
+2017-12-29 04:28:05 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2017-12-29 04:28:05 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2817;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2817;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+    );
+    universalIPA =     {
+        path = "/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/IDEIPAProcessor.AppThinning.mEu/universal";
+    };
+}
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionSymbolsStep
+2017-12-29 04:28:05 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionAppThinningStep
+2017-12-29 04:28:05 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionODRStep
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionStripXattrsStep
+2017-12-29 04:28:05 +0000  Running /usr/bin/xattr '-crs' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root/Payload/NotificationDemo.app'
+2017-12-29 04:28:05 +0000  /usr/bin/xattr exited with 0
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionCodesignStep
+2017-12-29 04:28:05 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7ff307f80410 'com.microsoft.msxiaoyun.NotificationDemo' '<DVTFilePath:0x7ff306f22ae0:'/Users/zhangdongdong/Library/Developer/Xcode/Archives/2017-12-29/NotificationDemo 2017-12-29 下午12.27.xcarchive/Products/Applications/NotificationDemo.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7ff30723a3d0>: {
+}
+2017-12-29 04:28:05 +0000  Entitlements for <IDEDistributionItem: 0x7ff307f80410 'com.microsoft.msxiaoyun.NotificationDemo' '<DVTFilePath:0x7ff306f22ae0:'/Users/zhangdongdong/Library/Developer/Xcode/Archives/2017-12-29/NotificationDemo 2017-12-29 下午12.27.xcarchive/Products/Applications/NotificationDemo.app'>'>: {
+    "application-identifier" = "E3P2FC5X6P.com.microsoft.msxiaoyun.NotificationDemo";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = E3P2FC5X6P;
+    "get-task-allow" = 1;
+}
+2017-12-29 04:28:05 +0000  Writing entitlements for <IDEDistributionItem: 0x7ff307f80410 'com.microsoft.msxiaoyun.NotificationDemo' '<DVTFilePath:0x7ff306f22ae0:'/Users/zhangdongdong/Library/Developer/Xcode/Archives/2017-12-29/NotificationDemo 2017-12-29 下午12.27.xcarchive/Products/Applications/NotificationDemo.app'>'> to: /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/entitlementsAEjCDW
+2017-12-29 04:28:05 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '7E4384DDDFA41F7857BDF1010017E1C17E266C1F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/entitlementsAEjCDW' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root/Payload/NotificationDemo.app'
+2017-12-29 04:28:05 +0000  /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root/Payload/NotificationDemo.app: signed app bundle with Mach-O thin (arm64) [com.microsoft.msxiaoyun.NotificationDemo]
+2017-12-29 04:28:05 +0000  /usr/bin/codesign exited with 0
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-12-29 04:28:05 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionCreateIPAStep
+2017-12-29 04:28:05 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root' '/var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Packages/NotificationDemo.ipa'
+2017-12-29 04:28:05 +0000  >>> Copying /var/folders/r7/pck4z4c97xn3t1zc1j1mmytm0000gn/T/XcodeDistPipeline.mxU/Root 
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/_CodeSignature/CodeResources ... 
+2017-12-29 04:28:05 +0000  5133 bytes for ./Payload/NotificationDemo.app/_CodeSignature/CodeResources
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/archived-expanded-entitlements.xcent ... 
+2017-12-29 04:28:05 +0000  246 bytes for ./Payload/NotificationDemo.app/archived-expanded-entitlements.xcent
+copying file ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-12-29 04:28:05 +0000  1136 bytes for ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-12-29 04:28:05 +0000  258 bytes for ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/NotificationDemo.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2017-12-29 04:28:05 +0000  1136 bytes for ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-12-29 04:28:05 +0000  258 bytes for ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/NotificationDemo.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/embedded.mobileprovision ... 
+2017-12-29 04:28:05 +0000  9932 bytes for ./Payload/NotificationDemo.app/embedded.mobileprovision
+copying file ./Payload/NotificationDemo.app/Info.plist ... 
+2017-12-29 04:28:05 +0000  2488 bytes for ./Payload/NotificationDemo.app/Info.plist
+2017-12-29 04:28:05 +0000  copying file ./Payload/NotificationDemo.app/NotificationDemo ... 
+2017-12-29 04:28:05 +0000  63296 bytes for ./Payload/NotificationDemo.app/NotificationDemo
+copying file ./Payload/NotificationDemo.app/PkgInfo ... 
+2017-12-29 04:28:05 +0000  8 bytes for ./Payload/NotificationDemo.app/PkgInfo
+2017-12-29 04:28:05 +0000  /usr/bin/ditto exited with 0
+2017-12-29 04:28:05 +0000  Processing step: IDEDistributionCreateManifestStep
