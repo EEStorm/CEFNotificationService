@@ -30,4 +30,6 @@ typedef void(^Completion)();
 
 +(void)registerDeviceToken:(NSData *)deviceToken;
 
++(void)getContent:(UNNotificationContent*)content;
+
 @end

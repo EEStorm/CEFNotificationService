@@ -95,6 +95,9 @@
     [sessionDataTask resume];
 }
 
++(void)getContent:(UNNotificationContent *)content{
+    
+}
 
 
 @end
