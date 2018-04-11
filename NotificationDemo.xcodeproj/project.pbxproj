@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A1B16FE207DC48600D26A72 /* LCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B16FC207DC48500D26A72 /* LCNetworking.m */; };
 		4A70778C1FF4D72200C29183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A70778B1FF4D72200C29183 /* AppDelegate.m */; };
 		4A70778F1FF4D72200C29183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A70778E1FF4D72200C29183 /* ViewController.m */; };
 		4A7077921FF4D72200C29183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7077901FF4D72200C29183 /* Main.storyboard */; };
@@ -19,8 +18,6 @@
 
 /* Begin PBXFileReference section */
 		4A0F2C6C20415A6400DC9765 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		4A1B16FC207DC48500D26A72 /* LCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNetworking.m; sourceTree = "<group>"; };
-		4A1B16FD207DC48500D26A72 /* LCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNetworking.h; sourceTree = "<group>"; };
 		4A7077871FF4D72200C29183 /* NotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A70778A1FF4D72200C29183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A70778B1FF4D72200C29183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,8 +70,6 @@
 				4A70778E1FF4D72200C29183 /* ViewController.m */,
 				4ACE5A94207A06EC00CEA46B /* CEFService.h */,
 				4ACE5A95207A06EC00CEA46B /* CEFService.m */,
-				4A1B16FD207DC48500D26A72 /* LCNetworking.h */,
-				4A1B16FC207DC48500D26A72 /* LCNetworking.m */,
 				4A7077901FF4D72200C29183 /* Main.storyboard */,
 				4A7077931FF4D72200C29183 /* Assets.xcassets */,
 				4A7077951FF4D72200C29183 /* LaunchScreen.storyboard */,
@@ -169,7 +164,6 @@
 			files = (
 				4A70778F1FF4D72200C29183 /* ViewController.m in Sources */,
 				4A70779A1FF4D72200C29183 /* main.m in Sources */,
-				4A1B16FE207DC48600D26A72 /* LCNetworking.m in Sources */,
 				4ACE5A96207A06EC00CEA46B /* CEFService.m in Sources */,
 				4A70778C1FF4D72200C29183 /* AppDelegate.m in Sources */,
 			);
