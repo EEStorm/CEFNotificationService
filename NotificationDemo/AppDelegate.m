@@ -22,13 +22,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSString *EID = [CEFService createEID];
-    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self EID:EID successCompletion:^{
+    NSString *EID = [CEFService createEIDwithTags:@[@"Beijing"] customId:@"storm"];
+    [CEFService registerForRemoteNotifications:(UNAuthorizationOptionBadge | UNAuthorizationOptionSound | UNAuthorizationOptionAlert) delegate:self EID:EID profile:^(NSDictionary * dict) {
         
-        //用户允许通知
+        NSLog(@"%@",dict);
+    } successCompletion:^{
         
     } failedCompletion:^{
-        //用户拒绝通知
         
     }];
     

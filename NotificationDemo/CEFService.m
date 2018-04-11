@@ -11,9 +11,7 @@
 
 @implementation CEFService
 
-+(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID successCompletion:(Completion)successCompletion failedCompletion:(Completion)failedCompletion{
-    
-    [self registerNotification:EID];
++(void)registerForRemoteNotifications:(UNAuthorizationOptions)entity delegate:(id)delegate EID:(NSString *)EID profile:(Profile)profile successCompletion:(Completion)successCompletion failedCompletion:(Completion)failedCompletion{
     
     NSString *version = [UIDevice currentDevice].systemVersion;
     
@@ -26,6 +24,8 @@
             if (!error && granted) {
                 //用户点击允许
                 NSLog(@"注册成功");
+                
+                [self registerNotification:EID Profile:profile withTags:Tags customId:CustomId];
                 successCompletion();
             }else{
                 //用户点击不允许
@@ -61,12 +61,23 @@
 }
 
 
-+(NSString *)createEID {
++(NSString *)createEIDwithTags:(NSArray *)tags customId:(NSString *)customId{
+
+    CustomId = customId;
+    Tags = tags;
     
     static NSString *EID = @"";
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://virtserver.swaggerhub.com/MS-ACE/CEF/1.0.0/users"]];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://cefsfcluster.chinanorth.cloudapp.chinacloudapi.cn/users"]];
+    
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = @"POST";
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    NSDictionary *dictPramas = @{@"tags":tags,
+                                 @"customId":customId
+                                 };
+    NSData *data = [NSJSONSerialization dataWithJSONObject:dictPramas options:0 error:nil];
+    request.HTTPBody = data;
+    
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingMutableLeaves) error:nil];
@@ -79,17 +90,24 @@
     return EID;
 }
 
-+(void)registerNotification:(NSString *)EID{
++(void)registerNotification:(NSString *)EID Profile:(Profile)profile withTags:(NSArray*)tags customId:(NSString*)customId{
     
     
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://virtserver.swaggerhub.com/MS-ACE/CEF/1.0.0/users/%@/serviceproviders/notification/registrations",EID]];
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://cefsfcluster.chinanorth.cloudapp.chinacloudapi.cn/users/%@",EID]];
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
     request.HTTPMethod = @"POST";
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    NSDictionary *dictPramas = @{@"tags":tags,
+                                 @"customId":customId
+                                 };
+    NSData *data = [NSJSONSerialization dataWithJSONObject:dictPramas options:0 error:nil];
+    request.HTTPBody = data;
+
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:(NSJSONReadingMutableLeaves) error:nil];
         
-        NSLog(@"%@",dict);
+        profile(dict);
     }];
     
     [sessionDataTask resume];
